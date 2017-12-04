@@ -40,11 +40,23 @@ img:nth-child(even) {
 @media only screen and (min-width: 38em) {
 
   img {
-    width: 30%;
+    width: 32%;
     display: inline-block;
   }
 
   img:first-child {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    width: 24%;
+    display: inline-block;
+  }
+
+  img:first-child {
+    display: inline-block;
   }
 }
