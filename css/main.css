@@ -66,3 +66,15 @@ img:nth-child(even) {
     margin-right: .5em;
   }
 }
+
+@media only screen and (min-width: 90em) {
+
+  img {
+    width: 24%;
+    display: inline-block;
+  }
+
+  img:first-child {
+    margin-left: 1.5em;
+  }
+}
