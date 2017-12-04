@@ -36,3 +36,15 @@ img:nth-child(even) {
     display: inline-block;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 30%;
+    display: inline-block;
+  }
+
+  img:first-child {
+    display: none;
+  }
+}
