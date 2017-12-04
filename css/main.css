@@ -28,7 +28,7 @@ img:nth-child(even) {
 @media only screen and (min-width: 25em) {
 
   img {
-    width: 48%;
+    width: 49%;
     display: inline-block;
   }
 
