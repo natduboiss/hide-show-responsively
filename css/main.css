@@ -58,5 +58,11 @@ img:nth-child(even) {
 
   img:first-child {
     display: inline-block;
+    margin-left: 1em;
+  }
+
+  img:last-child {
+    display: inline-block;
+    margin-right: .5em;
   }
 }
