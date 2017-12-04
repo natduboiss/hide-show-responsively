@@ -15,3 +15,24 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+img:nth-child(even) {
+  display: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 48%;
+    display: inline-block;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
+  }
+}
